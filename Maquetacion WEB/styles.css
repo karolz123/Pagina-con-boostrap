@@ -1,0 +1,70 @@
+.color{
+    background-color: rgb(13, 0, 255);
+}
+
+.img img{
+    height: 960px; 
+    width: 1325px;
+}
+
+proyecto{
+    height: 325px; 
+    width: 1116px;
+}
+
+.imagenesproyecto img{
+    height: 210px; 
+    width: 335px;
+}
+
+input, textarea{
+    height: 54px; 
+    width: 414px;
+}
+
+button{
+    height: 45px; 
+    width: 420px;
+}
+
+.logo img{
+    height: 100px;
+    width: 400px;
+}
+
+
+@media screen and (max-width :320px){
+    .img img{
+        height: 256px;
+        width: 297px;
+    }
+
+    proyecto{
+        height: 826px;
+        width: 227px;
+    }
+
+    .imagenesproyecto img{
+        height: 129px;
+        width: 181px;
+    }
+
+    input, textarea{
+        width: 299px;
+    }
+
+    textarea{
+        height: 224px;
+    }
+
+    button{
+        height: 45px; 
+        width: 100px;
+    }
+
+    .logo img{
+        height: 32px;
+        width: 168px;
+    }
+    
+}
